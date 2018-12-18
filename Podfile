@@ -19,4 +19,5 @@ target 'SwiftAppSample' do
     pod 'QMUIKit', '~> 2.9.2'
     pod 'Closures', '~> 0.5'
     pod 'MJRefresh', '~> 3.1.15.7'   # 刷新库
+    pod 'EFQRCode', '~> 4.4.2'       # 二维码
 end

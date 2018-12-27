@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F929A1421D26A600020F9B2 /* AppDelegate+Apns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1321D26A600020F9B2 /* AppDelegate+Apns.swift */; };
+		3F929A1621D26A7D0020F9B2 /* AppDelegate+Rounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1521D26A7D0020F9B2 /* AppDelegate+Rounts.swift */; };
+		3F929A1C21D26BD70020F9B2 /* AppDelegate+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1B21D26BD70020F9B2 /* AppDelegate+Service.swift */; };
+		3F929A1E21D26F060020F9B2 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1D21D26F060020F9B2 /* RootTabBarController.swift */; };
 		3FF6167821C0AF9000279BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF6167721C0AF9000279BD6 /* AppDelegate.swift */; };
 		3FF6167F21C0AF9300279BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6167E21C0AF9300279BD6 /* Assets.xcassets */; };
 		3FF6168221C0AF9300279BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6168021C0AF9300279BD6 /* LaunchScreen.storyboard */; };
@@ -44,7 +48,6 @@
 		3FF8038621C912A9001312F8 /* JXCategoryBaseCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8036721C912A9001312F8 /* JXCategoryBaseCellModel.m */; };
 		3FF8038C21C916C5001312F8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8038B21C916C5001312F8 /* BaseViewController.swift */; };
 		3FF8038E21C916E2001312F8 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8038D21C916E2001312F8 /* BaseNavigationController.swift */; };
-		3FF8039021C91703001312F8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8038F21C91703001312F8 /* BaseTabBarController.swift */; };
 		3FF8039221C91737001312F8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8039121C91737001312F8 /* BaseView.swift */; };
 		3FF8039421C91749001312F8 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8039321C91749001312F8 /* BaseLabel.swift */; };
 		3FF8039621C9175A001312F8 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8039521C9175A001312F8 /* BaseButton.swift */; };
@@ -58,7 +61,6 @@
 		3FF803A621C9181A001312F8 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803A521C9181A001312F8 /* BaseModel.swift */; };
 		3FF803A821C91826001312F8 /* BasePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803A721C91826001312F8 /* BasePageModel.swift */; };
 		3FF803AA21C91953001312F8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803A921C91953001312F8 /* RootViewController.swift */; };
-		3FF803AC21C91973001312F8 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803AB21C91973001312F8 /* RootNavigationController.swift */; };
 		3FF803AE21C9199E001312F8 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803AD21C9199E001312F8 /* HomePageController.swift */; };
 		3FF803B021C919B0001312F8 /* UserCenterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803AF21C919B0001312F8 /* UserCenterController.swift */; };
 		3FF803B221C919C6001312F8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF803B121C919C6001312F8 /* WebViewController.swift */; };
@@ -66,6 +68,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F929A1321D26A600020F9B2 /* AppDelegate+Apns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Apns.swift"; sourceTree = "<group>"; };
+		3F929A1521D26A7D0020F9B2 /* AppDelegate+Rounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Rounts.swift"; sourceTree = "<group>"; };
+		3F929A1B21D26BD70020F9B2 /* AppDelegate+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Service.swift"; sourceTree = "<group>"; };
+		3F929A1D21D26F060020F9B2 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
 		3FF6167421C0AF9000279BD6 /* SwiftAppSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAppSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF6167721C0AF9000279BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF6167E21C0AF9300279BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,7 +147,6 @@
 		3FF8038A21C9146F001312F8 /* SwiftAppSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftAppSample-Bridging-Header.h"; sourceTree = "<group>"; };
 		3FF8038B21C916C5001312F8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3FF8038D21C916E2001312F8 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		3FF8038F21C91703001312F8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		3FF8039121C91737001312F8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		3FF8039321C91749001312F8 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
 		3FF8039521C9175A001312F8 /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
@@ -155,7 +160,6 @@
 		3FF803A521C9181A001312F8 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		3FF803A721C91826001312F8 /* BasePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageModel.swift; sourceTree = "<group>"; };
 		3FF803A921C91953001312F8 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		3FF803AB21C91973001312F8 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		3FF803AD21C9199E001312F8 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 		3FF803AF21C919B0001312F8 /* UserCenterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCenterController.swift; sourceTree = "<group>"; };
 		3FF803B121C919C6001312F8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -176,6 +180,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F929A1721D26A9E0020F9B2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3F929A1821D26ADF0020F9B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F929A1921D26AE70020F9B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3F929A1A21D26B0E0020F9B2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		3FF6166B21C0AF9000279BD6 = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +269,7 @@
 		3FF8030621C90F57001312F8 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				3F929A1721D26A9E0020F9B2 /* Service */,
 				3FF8031321C91015001312F8 /* Util */,
 				3FF8031221C9100C001312F8 /* Extension */,
 				3FF8031121C91000001312F8 /* BaseModel */,
@@ -259,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				3FF8031B21C91125001312F8 /* Main */,
+				3F929A1A21D26B0E0020F9B2 /* Login */,
 				3FF8030921C90F82001312F8 /* HomePage */,
 				3FF8030A21C90F8C001312F8 /* UserCenter */,
 				3FF8031421C9103A001312F8 /* Web */,
@@ -269,6 +303,7 @@
 		3FF8030921C90F82001312F8 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				3F929A1821D26ADF0020F9B2 /* ViewModel */,
 				3FF8030C21C90FB3001312F8 /* View */,
 				3FF8030B21C90FA1001312F8 /* Controller */,
 			);
@@ -278,6 +313,7 @@
 		3FF8030A21C90F8C001312F8 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				3F929A1921D26AE70020F9B2 /* ViewModel */,
 				3FF8030E21C90FC9001312F8 /* View */,
 				3FF8030D21C90FC0001312F8 /* Controller */,
 			);
@@ -319,7 +355,6 @@
 			children = (
 				3FF8038B21C916C5001312F8 /* BaseViewController.swift */,
 				3FF8038D21C916E2001312F8 /* BaseNavigationController.swift */,
-				3FF8038F21C91703001312F8 /* BaseTabBarController.swift */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -399,6 +434,9 @@
 			children = (
 				3FF6168321C0AF9300279BD6 /* Info.plist */,
 				3FF6167721C0AF9000279BD6 /* AppDelegate.swift */,
+				3F929A1B21D26BD70020F9B2 /* AppDelegate+Service.swift */,
+				3F929A1321D26A600020F9B2 /* AppDelegate+Apns.swift */,
+				3F929A1521D26A7D0020F9B2 /* AppDelegate+Rounts.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -408,7 +446,7 @@
 			children = (
 				3FF6168021C0AF9300279BD6 /* LaunchScreen.storyboard */,
 				3FF803A921C91953001312F8 /* RootViewController.swift */,
-				3FF803AB21C91973001312F8 /* RootNavigationController.swift */,
+				3F929A1D21D26F060020F9B2 /* RootTabBarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -737,16 +775,15 @@
 				3FF8036C21C912A9001312F8 /* JXCategoryIndicatorComponentView.m in Sources */,
 				3FF8036D21C912A9001312F8 /* JXCategoryIndicatorBackgroundView.m in Sources */,
 				3FF8039A21C91787001312F8 /* BaseTableViewCell.swift in Sources */,
+				3F929A1421D26A600020F9B2 /* AppDelegate+Apns.swift in Sources */,
 				3FF8037821C912A9001312F8 /* JXCategoryTitleCell.m in Sources */,
 				3FF803A821C91826001312F8 /* BasePageModel.swift in Sources */,
 				3FF803A621C9181A001312F8 /* BaseModel.swift in Sources */,
 				3FF8037B21C912A9001312F8 /* JXCategoryImageCell.m in Sources */,
 				3FF8038C21C916C5001312F8 /* BaseViewController.swift in Sources */,
 				3FF8038421C912A9001312F8 /* JXCategoryBaseView.m in Sources */,
-				3FF803AC21C91973001312F8 /* RootNavigationController.swift in Sources */,
 				3FF8039821C91776001312F8 /* BaseTableView.swift in Sources */,
 				3FF8038621C912A9001312F8 /* JXCategoryBaseCellModel.m in Sources */,
-				3FF8039021C91703001312F8 /* BaseTabBarController.swift in Sources */,
 				3FF803A021C917D9001312F8 /* BaseTextField.swift in Sources */,
 				3FF8039C21C917A4001312F8 /* BaseCollectionView.swift in Sources */,
 				3FF8036A21C912A9001312F8 /* JXCategoryIndicatorImageView.m in Sources */,
@@ -758,7 +795,9 @@
 				3FF8037421C912A9001312F8 /* JXCategoryTitleImageView.m in Sources */,
 				3FF8038321C912A9001312F8 /* UIColor+JXAdd.m in Sources */,
 				3FF8037021C912A9001312F8 /* JXCategoryIndicatorView.m in Sources */,
+				3F929A1E21D26F060020F9B2 /* RootTabBarController.swift in Sources */,
 				3FF8036B21C912A9001312F8 /* JXCategoryIndicatorBallView.m in Sources */,
+				3F929A1621D26A7D0020F9B2 /* AppDelegate+Rounts.swift in Sources */,
 				3FF803B021C919B0001312F8 /* UserCenterController.swift in Sources */,
 				3FF8038021C912A9001312F8 /* JXCategoryListVCContainerView.m in Sources */,
 				3FF8036921C912A9001312F8 /* JXCategoryIndicatorTriangleView.m in Sources */,
@@ -773,6 +812,7 @@
 				3FF8037E21C912A9001312F8 /* JXCategoryNumberCell.m in Sources */,
 				3FF8037321C912A9001312F8 /* JXCategoryDotCellModel.m in Sources */,
 				3FF803A421C91809001312F8 /* BaseTextView.swift in Sources */,
+				3F929A1C21D26BD70020F9B2 /* AppDelegate+Service.swift in Sources */,
 				3FF8038521C912A9001312F8 /* JXCategoryBaseCell.m in Sources */,
 				3FF803AA21C91953001312F8 /* RootViewController.swift in Sources */,
 				3FF8037F21C912A9001312F8 /* JXCategoryNumberCellModel.m in Sources */,

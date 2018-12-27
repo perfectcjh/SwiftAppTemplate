@@ -17,7 +17,7 @@ class TPGCDTimer: NSObject {
     // GCD定时器
     func scheduledDispatchTimer(name: String,
                                 timeInterval: Double,
-                                queue: DispatchQueue? = .global(),
+                                queue: DispatchQueue? = DispatchQueue.init(label: "TPGCDTimer_Queue"),
                                 repeats: Bool? = false,
                                 action: ActionBlock? = nil) {
         

@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+extension AppDelegate {
+    
+    func registeRouters() {
+        
+        let router = try! ServiceLocator.resolve() as MiniRouter
+        
+        router.register(route: "SwiftApp://test") { (url) in UIViewController.topMost?.navigationController?.pushViewController(TestController(), animated: true)
+        }
+    }
+    
+}

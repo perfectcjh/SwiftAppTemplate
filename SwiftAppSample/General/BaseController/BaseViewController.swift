@@ -8,13 +8,14 @@
 
 import UIKit
 import QMUIKit
+import Closures
 
 class BaseViewController: QMUICommonViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        view.backgroundColor = .vcBgColor
     }
 
 }

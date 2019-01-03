@@ -10,5 +10,6 @@
 #define SwiftAppSample_Bridging_Header_h
 
 #import "JXCategoryView.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 #endif /* SwiftAppSample_Bridging_Header_h */

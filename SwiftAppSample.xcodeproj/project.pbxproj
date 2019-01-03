@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1A3C3021DCA9110057244A /* HttpProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C2F21DCA9110057244A /* HttpProvider.swift */; };
+		3F1A3C3221DCA9280057244A /* HttpTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3121DCA9280057244A /* HttpTargetType.swift */; };
+		3F1A3C3421DCA9990057244A /* TargetConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3321DCA9990057244A /* TargetConfig.swift */; };
+		3F1A3C3621DCB1E00057244A /* AppDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3521DCB1E00057244A /* AppDataCenter.swift */; };
+		3F1A3C3A21DCB9460057244A /* HttpProviderPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3921DCB9460057244A /* HttpProviderPlugin.swift */; };
+		3F1A3C3C21DCBBD30057244A /* HttpResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3B21DCBBD30057244A /* HttpResponseData.swift */; };
+		3F1A3C3F21DDA7600057244A /* array_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3D21DDA7600057244A /* array_response.json */; };
+		3F1A3C4021DDA7600057244A /* object_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A3C3E21DDA7600057244A /* object_response.json */; };
+		3F1A3C4221DDA7F70057244A /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C4121DDA7F70057244A /* Api.swift */; };
+		3F1A3C4421DDAB100057244A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C4321DDAB100057244A /* UIColor+Extension.swift */; };
+		3F1A3C4721DDAB810057244A /* BMDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C4621DDAB810057244A /* BMDateFormatter.swift */; };
+		3F1A3C4B21DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C4A21DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.m */; };
+		3F1A3C4F21DDAB990057244A /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C4D21DDAB990057244A /* iCarousel.m */; };
+		3F1A3C5221DDADEF0057244A /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5121DDADEF0057244A /* TestController.swift */; };
+		3F1A3C5421DDAE4B0057244A /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5321DDAE4B0057244A /* Main.xcassets */; };
+		3F1A3C5821DDB0070057244A /* MiniURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5621DDB0060057244A /* MiniURL.swift */; };
+		3F1A3C5921DDB0070057244A /* MiniRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5721DDB0060057244A /* MiniRouter.swift */; };
+		3F1A3C5B21DDB0B50057244A /* UIViewController+TopMost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5A21DDB0B50057244A /* UIViewController+TopMost.swift */; };
+		3F1A3C5D21DDB1770057244A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5C21DDB1770057244A /* Constants.swift */; };
+		3F1A3C5F21DDB1B80057244A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C5E21DDB1B80057244A /* Functions.swift */; };
+		3F1A3C6321DDB6200057244A /* SwiftyJsonAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C6221DDB6200057244A /* SwiftyJsonAble.swift */; };
+		3F1A3C6521DDB6900057244A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C6421DDB6900057244A /* HomeModel.swift */; };
+		3F1A3C6721DDB6A50057244A /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C6621DDB6A50057244A /* TestModel.swift */; };
+		3F1A3C6921DDB6ED0057244A /* HttpResponseData+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A3C6821DDB6ED0057244A /* HttpResponseData+Rx.swift */; };
 		3F929A1421D26A600020F9B2 /* AppDelegate+Apns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1321D26A600020F9B2 /* AppDelegate+Apns.swift */; };
 		3F929A1621D26A7D0020F9B2 /* AppDelegate+Rounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1521D26A7D0020F9B2 /* AppDelegate+Rounts.swift */; };
 		3F929A1C21D26BD70020F9B2 /* AppDelegate+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F929A1B21D26BD70020F9B2 /* AppDelegate+Service.swift */; };
@@ -68,6 +92,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1A3C2F21DCA9110057244A /* HttpProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpProvider.swift; sourceTree = "<group>"; };
+		3F1A3C3121DCA9280057244A /* HttpTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTargetType.swift; sourceTree = "<group>"; };
+		3F1A3C3321DCA9990057244A /* TargetConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetConfig.swift; sourceTree = "<group>"; };
+		3F1A3C3521DCB1E00057244A /* AppDataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataCenter.swift; sourceTree = "<group>"; };
+		3F1A3C3921DCB9460057244A /* HttpProviderPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpProviderPlugin.swift; sourceTree = "<group>"; };
+		3F1A3C3B21DCBBD30057244A /* HttpResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseData.swift; sourceTree = "<group>"; };
+		3F1A3C3D21DDA7600057244A /* array_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = array_response.json; sourceTree = "<group>"; };
+		3F1A3C3E21DDA7600057244A /* object_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = object_response.json; sourceTree = "<group>"; };
+		3F1A3C4121DDA7F70057244A /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		3F1A3C4321DDAB100057244A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		3F1A3C4621DDAB810057244A /* BMDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMDateFormatter.swift; sourceTree = "<group>"; };
+		3F1A3C4921DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		3F1A3C4A21DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		3F1A3C4D21DDAB990057244A /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		3F1A3C4E21DDAB990057244A /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		3F1A3C5121DDADEF0057244A /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		3F1A3C5321DDAE4B0057244A /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		3F1A3C5621DDB0060057244A /* MiniURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniURL.swift; sourceTree = "<group>"; };
+		3F1A3C5721DDB0060057244A /* MiniRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiniRouter.swift; sourceTree = "<group>"; };
+		3F1A3C5A21DDB0B50057244A /* UIViewController+TopMost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMost.swift"; sourceTree = "<group>"; };
+		3F1A3C5C21DDB1770057244A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3F1A3C5E21DDB1B80057244A /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		3F1A3C6221DDB6200057244A /* SwiftyJsonAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJsonAble.swift; sourceTree = "<group>"; };
+		3F1A3C6421DDB6900057244A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		3F1A3C6621DDB6A50057244A /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		3F1A3C6821DDB6ED0057244A /* HttpResponseData+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HttpResponseData+Rx.swift"; sourceTree = "<group>"; };
 		3F929A1321D26A600020F9B2 /* AppDelegate+Apns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Apns.swift"; sourceTree = "<group>"; };
 		3F929A1521D26A7D0020F9B2 /* AppDelegate+Rounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Rounts.swift"; sourceTree = "<group>"; };
 		3F929A1B21D26BD70020F9B2 /* AppDelegate+Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Service.swift"; sourceTree = "<group>"; };
@@ -180,9 +230,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F1A3C4521DDAB810057244A /* BMDateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C4621DDAB810057244A /* BMDateFormatter.swift */,
+			);
+			path = BMDateFormatter;
+			sourceTree = "<group>";
+		};
+		3F1A3C4821DDAB8A0057244A /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C4921DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.h */,
+				3F1A3C4A21DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		3F1A3C4C21DDAB990057244A /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C4D21DDAB990057244A /* iCarousel.m */,
+				3F1A3C4E21DDAB990057244A /* iCarousel.h */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		3F1A3C5021DDADD30057244A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C5121DDADEF0057244A /* TestController.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		3F1A3C5521DDB0060057244A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C5621DDB0060057244A /* MiniURL.swift */,
+				3F1A3C5721DDB0060057244A /* MiniRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3F1A3C6021DDB5DE0057244A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C6421DDB6900057244A /* HomeModel.swift */,
+				3F1A3C6621DDB6A50057244A /* TestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F1A3C6121DDB5FC0057244A /* SwiftyJsonAble */ = {
+			isa = PBXGroup;
+			children = (
+				3F1A3C6221DDB6200057244A /* SwiftyJsonAble.swift */,
+			);
+			path = SwiftyJsonAble;
+			sourceTree = "<group>";
+		};
 		3F929A1721D26A9E0020F9B2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C5521DDB0060057244A /* Router */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -245,7 +356,10 @@
 		3FF8030321C90F24001312F8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C3D21DDA7600057244A /* array_response.json */,
+				3F1A3C3E21DDA7600057244A /* object_response.json */,
 				3FF6167E21C0AF9300279BD6 /* Assets.xcassets */,
+				3F1A3C5321DDAE4B0057244A /* Main.xcassets */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -253,6 +367,10 @@
 		3FF8030421C90F3F001312F8 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C6121DDB5FC0057244A /* SwiftyJsonAble */,
+				3F1A3C4C21DDAB990057244A /* iCarousel */,
+				3F1A3C4821DDAB8A0057244A /* FDFullscreenPopGesture */,
+				3F1A3C4521DDAB810057244A /* BMDateFormatter */,
 				3FF8031D21C912A9001312F8 /* JXCategoryView */,
 				3FF8031721C910CD001312F8 /* TPGCDTimer */,
 			);
@@ -262,6 +380,9 @@
 		3FF8030521C90F4B001312F8 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C3321DCA9990057244A /* TargetConfig.swift */,
+				3F1A3C5C21DDB1770057244A /* Constants.swift */,
+				3F1A3C5E21DDB1B80057244A /* Functions.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -282,6 +403,7 @@
 		3FF8030721C90F60001312F8 /* DataLogic */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C6021DDB5DE0057244A /* Model */,
 				3FF8031621C91077001312F8 /* HttpProvider */,
 				3FF8031521C91062001312F8 /* DataCenter */,
 			);
@@ -296,6 +418,7 @@
 				3FF8030921C90F82001312F8 /* HomePage */,
 				3FF8030A21C90F8C001312F8 /* UserCenter */,
 				3FF8031421C9103A001312F8 /* Web */,
+				3F1A3C5021DDADD30057244A /* Test */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -388,6 +511,8 @@
 		3FF8031221C9100C001312F8 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C4321DDAB100057244A /* UIColor+Extension.swift */,
+				3F1A3C5A21DDB0B50057244A /* UIViewController+TopMost.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -410,6 +535,8 @@
 		3FF8031521C91062001312F8 /* DataCenter */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C3521DCB1E00057244A /* AppDataCenter.swift */,
+				3F1A3C4121DDA7F70057244A /* Api.swift */,
 			);
 			path = DataCenter;
 			sourceTree = "<group>";
@@ -417,6 +544,11 @@
 		3FF8031621C91077001312F8 /* HttpProvider */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A3C2F21DCA9110057244A /* HttpProvider.swift */,
+				3F1A3C3121DCA9280057244A /* HttpTargetType.swift */,
+				3F1A3C3921DCB9460057244A /* HttpProviderPlugin.swift */,
+				3F1A3C3B21DCBBD30057244A /* HttpResponseData.swift */,
+				3F1A3C6821DDB6ED0057244A /* HttpResponseData+Rx.swift */,
 			);
 			path = HttpProvider;
 			sourceTree = "<group>";
@@ -680,8 +812,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1A3C5421DDAE4B0057244A /* Main.xcassets in Resources */,
 				3FF6168221C0AF9300279BD6 /* LaunchScreen.storyboard in Resources */,
+				3F1A3C4021DDA7600057244A /* object_response.json in Resources */,
 				3FF6167F21C0AF9300279BD6 /* Assets.xcassets in Resources */,
+				3F1A3C3F21DDA7600057244A /* array_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,37 +904,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1A3C3021DCA9110057244A /* HttpProvider.swift in Sources */,
 				3FF8037A21C912A9001312F8 /* JXCategoryImageView.m in Sources */,
 				3FF803B221C919C6001312F8 /* WebViewController.swift in Sources */,
 				3FF8039421C91749001312F8 /* BaseLabel.swift in Sources */,
 				3FF8036C21C912A9001312F8 /* JXCategoryIndicatorComponentView.m in Sources */,
+				3F1A3C5921DDB0070057244A /* MiniRouter.swift in Sources */,
 				3FF8036D21C912A9001312F8 /* JXCategoryIndicatorBackgroundView.m in Sources */,
 				3FF8039A21C91787001312F8 /* BaseTableViewCell.swift in Sources */,
 				3F929A1421D26A600020F9B2 /* AppDelegate+Apns.swift in Sources */,
+				3F1A3C3621DCB1E00057244A /* AppDataCenter.swift in Sources */,
 				3FF8037821C912A9001312F8 /* JXCategoryTitleCell.m in Sources */,
+				3F1A3C5F21DDB1B80057244A /* Functions.swift in Sources */,
+				3F1A3C5D21DDB1770057244A /* Constants.swift in Sources */,
+				3F1A3C4221DDA7F70057244A /* Api.swift in Sources */,
 				3FF803A821C91826001312F8 /* BasePageModel.swift in Sources */,
 				3FF803A621C9181A001312F8 /* BaseModel.swift in Sources */,
 				3FF8037B21C912A9001312F8 /* JXCategoryImageCell.m in Sources */,
 				3FF8038C21C916C5001312F8 /* BaseViewController.swift in Sources */,
+				3F1A3C4F21DDAB990057244A /* iCarousel.m in Sources */,
 				3FF8038421C912A9001312F8 /* JXCategoryBaseView.m in Sources */,
 				3FF8039821C91776001312F8 /* BaseTableView.swift in Sources */,
 				3FF8038621C912A9001312F8 /* JXCategoryBaseCellModel.m in Sources */,
 				3FF803A021C917D9001312F8 /* BaseTextField.swift in Sources */,
 				3FF8039C21C917A4001312F8 /* BaseCollectionView.swift in Sources */,
+				3F1A3C6521DDB6900057244A /* HomeModel.swift in Sources */,
+				3F1A3C5221DDADEF0057244A /* TestController.swift in Sources */,
 				3FF8036A21C912A9001312F8 /* JXCategoryIndicatorImageView.m in Sources */,
+				3F1A3C6721DDB6A50057244A /* TestModel.swift in Sources */,
+				3F1A3C4421DDAB100057244A /* UIColor+Extension.swift in Sources */,
 				3FF8036F21C912A9001312F8 /* JXCategoryIndicatorCell.m in Sources */,
 				3FF8037621C912A9001312F8 /* JXCategoryTitleImageCellModel.m in Sources */,
 				3FF8037721C912A9001312F8 /* JXCategoryTitleCellModel.m in Sources */,
+				3F1A3C4B21DDAB8A0057244A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				3FF803AE21C9199E001312F8 /* HomePageController.swift in Sources */,
 				3FF8037121C912A9001312F8 /* JXCategoryDotCell.m in Sources */,
 				3FF8037421C912A9001312F8 /* JXCategoryTitleImageView.m in Sources */,
 				3FF8038321C912A9001312F8 /* UIColor+JXAdd.m in Sources */,
+				3F1A3C5821DDB0070057244A /* MiniURL.swift in Sources */,
+				3F1A3C6921DDB6ED0057244A /* HttpResponseData+Rx.swift in Sources */,
+				3F1A3C3A21DCB9460057244A /* HttpProviderPlugin.swift in Sources */,
+				3F1A3C6321DDB6200057244A /* SwiftyJsonAble.swift in Sources */,
 				3FF8037021C912A9001312F8 /* JXCategoryIndicatorView.m in Sources */,
 				3F929A1E21D26F060020F9B2 /* RootTabBarController.swift in Sources */,
 				3FF8036B21C912A9001312F8 /* JXCategoryIndicatorBallView.m in Sources */,
 				3F929A1621D26A7D0020F9B2 /* AppDelegate+Rounts.swift in Sources */,
 				3FF803B021C919B0001312F8 /* UserCenterController.swift in Sources */,
 				3FF8038021C912A9001312F8 /* JXCategoryListVCContainerView.m in Sources */,
+				3F1A3C3421DCA9990057244A /* TargetConfig.swift in Sources */,
 				3FF8036921C912A9001312F8 /* JXCategoryIndicatorTriangleView.m in Sources */,
 				3FF8037D21C912A9001312F8 /* JXCategoryNumberView.m in Sources */,
 				3FF8038221C912A9001312F8 /* JXCategoryCollectionView.m in Sources */,
@@ -812,8 +964,10 @@
 				3FF8037E21C912A9001312F8 /* JXCategoryNumberCell.m in Sources */,
 				3FF8037321C912A9001312F8 /* JXCategoryDotCellModel.m in Sources */,
 				3FF803A421C91809001312F8 /* BaseTextView.swift in Sources */,
+				3F1A3C4721DDAB810057244A /* BMDateFormatter.swift in Sources */,
 				3F929A1C21D26BD70020F9B2 /* AppDelegate+Service.swift in Sources */,
 				3FF8038521C912A9001312F8 /* JXCategoryBaseCell.m in Sources */,
+				3F1A3C5B21DDB0B50057244A /* UIViewController+TopMost.swift in Sources */,
 				3FF803AA21C91953001312F8 /* RootViewController.swift in Sources */,
 				3FF8037F21C912A9001312F8 /* JXCategoryNumberCellModel.m in Sources */,
 				3FF8039E21C917BE001312F8 /* BaseCollectionViewCell.swift in Sources */,
@@ -821,6 +975,8 @@
 				3FF8038E21C916E2001312F8 /* BaseNavigationController.swift in Sources */,
 				3FF8037921C912A9001312F8 /* JXCategoryTitleView.m in Sources */,
 				3FF8039221C91737001312F8 /* BaseView.swift in Sources */,
+				3F1A3C3C21DCBBD30057244A /* HttpResponseData.swift in Sources */,
+				3F1A3C3221DCA9280057244A /* HttpTargetType.swift in Sources */,
 				3FF8038121C912A9001312F8 /* JXCategoryFactory.m in Sources */,
 				3FF803A221C917F3001312F8 /* BaseScrollView.swift in Sources */,
 				3FF8037521C912A9001312F8 /* JXCategoryTitleImageCell.m in Sources */,

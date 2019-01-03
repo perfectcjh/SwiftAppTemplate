@@ -12,6 +12,7 @@ import Dip
 extension AppDelegate {
     
     func configureServiceLocator(_ locator: DependencyContainer) {
-        
+        // 路由服务
+        locator.register(.singleton) { MiniRouter() as MiniRouter }
     }
 }

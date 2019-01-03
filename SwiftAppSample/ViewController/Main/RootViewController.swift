@@ -11,12 +11,14 @@ import UIKit
 class RootViewController: BaseViewController {
     
     var rootTabBar = RootTabBarController()
-    var rootNav = BaseNavigationController()
+    var rootNav: BaseNavigationController!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        rootNav.setr
+        rootNav = BaseNavigationController(rootViewController: rootTabBar)
+        addChild(rootNav)
+        view.addSubview(rootNav.view)
     }
 
 

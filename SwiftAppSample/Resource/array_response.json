@@ -1,0 +1,46 @@
+{
+    "code": 200,
+    "error": null,
+    "message": "",
+    "data": [{
+        "status": 1,
+        "op_status": 1,
+        "op_province": 10543,
+        "op_city": 10544,
+        "content": "",
+        "province_name": "上海",
+        "city_name": "上海市"
+    }, {
+        "status": 1,
+        "op_status": 2,
+        "op_province": 28240,
+        "op_city": 28737,
+        "content": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,minimum-scale=1.0,maximum-scale=1.0\"\/><meta name=\"format-detection\" content=\"telephone=no\"><title>商品详情<\/title><script src=\"http:\/\/capi.cgs18.com\/static\/js\/jquery.min.js\"><\/script><link rel=\"stylesheet\" href=\"http:\/\/capi.cgs18.com\/static\/css\/native.css\"><\/head><body><div class=\"container\"><div class=\"product-detail\"><div class=\"product-main\"><div class=\"tab-detail active\"><p>\n<p>\n<\/p>\n<p>\n<\/p>\n<p>\n<\/p>\n<p>\n<\/p>\n<p>\n<\/p>\n<p>\n<\/p>\n<img src=\"http:\/\/image.cgs18.com\/upload\/product\/image\/2018\/09-30\/20180930101510700.jpg\" border=\"0\"><br>\n<p><\/p>\n<p><\/p>\n<\/p><\/div><\/div><\/div><\/div><\/body><\/html>",
+        "province_name": "广东省",
+        "city_name": "佛山市"
+    }, {
+        "status": 1,
+        "op_status": 3,
+        "op_province": 1,
+        "op_city": 2,
+        "content": "",
+        "province_name": "北京",
+        "city_name": "北京市"
+    }, {
+        "status": 1,
+        "op_status": 3,
+        "op_province": 17359,
+        "op_city": 17360,
+        "content": "",
+        "province_name": "江西省",
+        "city_name": "南昌市"
+    }, {
+        "status": 1,
+        "op_status": 3,
+        "op_province": 41877,
+        "op_city": 42287,
+        "content": "",
+        "province_name": "陕西省",
+        "city_name": "咸阳市"
+    }]
+}

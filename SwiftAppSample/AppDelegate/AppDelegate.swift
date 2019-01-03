@@ -60,6 +60,8 @@ extension AppDelegate {
         window?.rootViewController = RootViewController()
         window?.makeKeyAndVisible()
         
+        registeRouters()
+        
     }
     
 }

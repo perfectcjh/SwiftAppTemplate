@@ -1,0 +1,181 @@
+{
+    "code": 200,
+    "error": null,
+    "message": "",
+    "data": {
+        "banner": [{
+            "id": 125,
+            "type": 1,
+            "type_style": 3,
+            "image": "http:\/\/ospic.cgs18.com\/uploads\/0\/e\/6\/0e664f4927e79d4128c11b1eda05f4ad.jpg",
+            "title": "走进工厂，看见幕后的品质",
+            "goods_id": 0,
+            "price": null,
+            "url": null,
+            "act_url": null,
+            "pic_title": "走进工厂，看见幕后的品质",
+            "pic_and_text": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,minimum-scale=1.0,maximum-scale=1.0\" \/><title>走进工厂，看见幕后的品质<\/title><link rel=\"stylesheet\" href=\"http:\/\/capi.cgs18.com\/static\/css\/landingPage.css\"><\/head><body><\/head><body><div class=\"container\"><p><img class=\"wscnph\" src=\"http:\/\/osimg.cgs18.com\/uploads\/d\/4\/c\/d4c3cf6e2c5bfcd52519301b093a0718.jpg\" \/><\/p><\/div><\/body><\/html>",
+            "timing": null,
+            "status": 2,
+            "sort": 48,
+            "start_time": 1546475680,
+            "end_time": 1547112599,
+            "created_at": "2018-12-29 13:31:49",
+            "updated_at": "2019-01-03 08:34:36",
+            "background_image": "",
+            "keyword": "CjYHPwMz"
+        }, {
+            "id": 121,
+            "type": 1,
+            "type_style": 3,
+            "image": "http:\/\/ospic.cgs18.com\/uploads\/1\/3\/d\/13d9b603937873d0652f04a4e350f014.jpg",
+            "title": "全屋定制",
+            "goods_id": 0,
+            "price": null,
+            "url": null,
+            "act_url": null,
+            "pic_title": "全屋定制套餐节",
+            "pic_and_text": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,minimum-scale=1.0,maximum-scale=1.0\" \/><title>全屋定制套餐节<\/title><link rel=\"stylesheet\" href=\"http:\/\/capi.cgs18.com\/static\/css\/landingPage.css\"><\/head><body><\/head><body><div class=\"container\"><p><img class=\"wscnph\" src=\"http:\/\/osimg.cgs18.com\/uploads\/c\/1\/7\/c170bc093be67e7d4e23c01802392618.jpg\" \/><\/p><div style=\"display:flex\"><div style=\"flex:1\" data-param=\"{'type':1,'id':3493}\" onclick=\"window.webkit.messageHandlers.gotoView.postMessage(this.dataset.param)\"><img src=\"http:\/\/osimg.cgs18.com\/uploads\/a\/4\/8\/a482c1814a6913ac384da579ceb1c91c.jpg\"\/><\/div><\/div><div style=\"display:flex\"><div style=\"flex:1\" data-param=\"{'type':1,'id':3522}\" onclick=\"window.webkit.messageHandlers.gotoView.postMessage(this.dataset.param)\"><img src=\"http:\/\/osimg.cgs18.com\/uploads\/b\/6\/a\/b6a98bc52a78626c97e2bf883ad948f7.jpg\"\/><\/div><\/div><div style=\"display:flex\"><div style=\"flex:1\" data-param=\"{'type':1,'id':3516}\" onclick=\"window.webkit.messageHandlers.gotoView.postMessage(this.dataset.param)\"><img src=\"http:\/\/osimg.cgs18.com\/uploads\/4\/c\/b\/4cb1578f68a639d13334c64fccf54857.jpg\"\/><\/div><\/div><p><img class=\"wscnph\" src=\"http:\/\/osimg.cgs18.com\/uploads\/5\/2\/d\/52d4b969c32dda4b2e62ed8d8284c9a1.jpg\" \/><\/p><\/div><\/body><\/html>",
+            "timing": null,
+            "status": 2,
+            "sort": 47,
+            "start_time": 1545812677,
+            "end_time": 1546531200,
+            "created_at": "2018-12-26 15:07:07",
+            "updated_at": "2018-12-26 16:24:34",
+            "background_image": "",
+            "keyword": "DjIDO1dj"
+        }, {
+            "id": 43,
+            "type": 1,
+            "type_style": 3,
+            "image": "http:\/\/ospic.cgs18.com\/uploads\/8\/1\/8\/818351b3587abb58feaf154809948da1.png",
+            "title": "天猫",
+            "goods_id": 0,
+            "price": null,
+            "url": null,
+            "act_url": null,
+            "pic_title": "建材采购师天猫欧麦红",
+            "pic_and_text": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,minimum-scale=1.0,maximum-scale=1.0\" \/><title>建材采购师天猫欧麦红<\/title><link rel=\"stylesheet\" href=\"http:\/\/capi.cgs18.com\/static\/css\/landingPage.css\"><\/head><body><\/head><body><div class=\"container\"><p style=\"text-align: center;\"><a href=\"http:\/\/c.cgs18.com\/v234\/channel-statistics?channels=67\" target=\"_blank\" rel=\"noopener\"><img class=\"wscnph\" src=\"http:\/\/osimg.cgs18.com\/uploads\/c\/6\/3\/c638db03dd21d46efeb12600515a3abe.jpg\" \/><\/a><\/p><\/div><\/body><\/html>",
+            "timing": null,
+            "status": 2,
+            "sort": 46,
+            "start_time": 1546410508,
+            "end_time": 1548864000,
+            "created_at": "2018-11-29 20:48:27",
+            "updated_at": "2019-01-02 14:28:25",
+            "background_image": "",
+            "keyword": "CzILMg%3D%3D"
+        }, {
+            "id": 122,
+            "type": 1,
+            "type_style": 2,
+            "image": "http:\/\/ospic.cgs18.com\/uploads\/7\/5\/a\/75a64c12c0ba0c78760036d85dfd4bc9.jpg",
+            "title": "这好办",
+            "goods_id": 0,
+            "price": null,
+            "url": "http:\/\/www.haobanvip.com\/index.php\/WxWeb\/join_ccx",
+            "act_url": null,
+            "pic_title": null,
+            "pic_and_text": null,
+            "timing": null,
+            "status": 2,
+            "sort": 45,
+            "start_time": 1545901508,
+            "end_time": 1546603200,
+            "created_at": "2018-12-27 17:05:06",
+            "updated_at": "2018-12-27 17:05:06",
+            "background_image": ""
+        }],
+        "menuList": [{
+            "name": "商品求购",
+            "code": "asktobuy",
+            "icon_path": "http:\/\/capi.cgs18.com\/static\/images\/home\/v2\/asktobuy@3x.png",
+            "callback": "\/want-to-buy",
+            "sort": 1
+        }, {
+            "name": "商家认证",
+            "code": "sellerauth",
+            "icon_path": "http:\/\/capi.cgs18.com\/static\/images\/home\/v2\/sellerauth@3x.png",
+            "callback": "\/shop-list",
+            "sort": 2
+        }, {
+            "name": "报价单",
+            "code": "pricesheet",
+            "icon_path": "http:\/\/capi.cgs18.com\/static\/images\/home\/v2\/pricesheet@3x.png",
+            "callback": "\/quotation-list",
+            "sort": 3
+        }, {
+            "name": "购物车",
+            "code": "cart",
+            "icon_path": "http:\/\/capi.cgs18.com\/static\/images\/home\/v2\/cart@3x.png",
+            "callback": "\/quotation",
+            "sort": 4
+        }, {
+            "name": "我的名片",
+            "code": "mycard",
+            "icon_path": "http:\/\/capi.cgs18.com\/static\/images\/home\/v2\/mycard@3x.png",
+            "callback": "",
+            "sort": 6
+        }],
+        "hotGoods": {
+            "type": "hotGoods",
+            "title": "爆款商品",
+            "head_img": "http:\/\/ospic.cgs18.com\/uploads\/0\/d\/9\/0d946f6201255ff6fcb7692fddb24a7f.jpg"
+        },
+        "seckillsale": {
+            "type": "seckillsale",
+            "flash_sale_id": 123,
+            "name": "装点生活",
+            "title": "限时抢购",
+            "image_paths": ["http:\/\/ospic.cgs18.com\/uploads\/1\/8\/0\/1801da405335517909b86d940c4cfa82.jpg"],
+            "start_at": 1546480800,
+            "end_at": 1546567199,
+            "nowtime": 1546481551
+        },
+        "hotSeller": {
+            "type": "hotSeller",
+            "title": "优选好店",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/d\/5\/b\/d5ba89c29eddbc8b1d41f70d5f34ab14.jpg"
+        },
+        "promotion": {
+            "type": "promotion",
+            "title": "热门活动",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/f\/d\/5\/fd54b0e216fe9182c1b3f152894f1ed3.jpg"
+        },
+        "materialTube": [{
+            "id": 2,
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/1\/7\/0\/1705b830a17111cacba1964a90dd7c1f.jpg"
+        }],
+        "boutique": [{
+            "id": 126,
+            "title": "顶面材料",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/2\/2\/e\/22e684396af19de6a6ee754704aef7ef.png"
+        }, {
+            "id": 127,
+            "title": "厨房电器",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/c\/f\/2\/cf2550144554e300cf4dfe8851835aae.png"
+        }, {
+            "id": 128,
+            "title": "大家电",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/e\/5\/2\/e525ee0d15f7fcab9ab79867f50c4aea.png"
+        }, {
+            "id": 129,
+            "title": "地面材料",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/0\/d\/e\/0de975c9868b71a5bf53054b43ccb43c.png"
+        }, {
+            "id": 130,
+            "title": "墙面材料",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/1\/a\/2\/1a2dbe7027059bff551fb3c9c597ce0a.png"
+        }, {
+            "id": 131,
+            "title": "全屋定制",
+            "image_path": "http:\/\/ospic.cgs18.com\/uploads\/0\/e\/d\/0ede7303ac7a12eb3ab47247c6325566.png"
+        }],
+        "chosenGoods": null,
+        "prompt": {
+            "is_prompt": 1,
+            "shop_name": ""
+        }
+    }
+}

@@ -9,7 +9,7 @@
 import UIKit
 import QMUIKit
 
-class RootTabBarController: QMUITabBarViewController {
+class RootTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

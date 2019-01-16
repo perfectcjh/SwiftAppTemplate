@@ -13,11 +13,20 @@ class HomePageController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        view.addTapGesture { (_) in
-            let router = try! ServiceLocator.resolve() as MiniRouter
-            router.open(route: "SwiftApp://test", params: nil)
+        title = "首页"
+        
+        setupUI()
+    }
+    
+    func setupUI() {
+        view.addTapGesture { [weak self] (_) in
+            self?.jumpToTestView()
         }
+    }
+    
+    func jumpToTestView() {
+        let router = try! ServiceLocator.resolve() as MiniRouter
+        router.open(route: "SwiftApp://test", params: nil)
     }
     
 }

@@ -7,15 +7,9 @@
 //
 
 import UIKit
+import QMUIKit
 
-class BaseLabel: UILabel {
+class BaseLabel: QMUILabel {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
 
 }

@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import QMUIKit
 
-class BaseTableView: UITableView {
+class BaseTableView: QMUITableView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect, style: UITableView.Style) {
+        super.init(frame: frame, style: style)
+        config()
     }
-    */
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        config()
+    }
+    
+    private func config() {
+        backgroundColor = .vcBgColor
+        separatorStyle = .none
+        
+        estimatedRowHeight = 0
+        estimatedSectionHeaderHeight = 0
+        estimatedSectionFooterHeight = 0
+    }
 
 }

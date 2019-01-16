@@ -14,9 +14,9 @@ import SwiftyJSON
 
 extension Response {
     
-    func mapObject<T: SwiftyJsonAble>(to type: T.Type) throws -> T {
-        
-        
-    }
+//    func mapObject<T: SwiftyJsonAble>(to type: T.Type) throws -> T {
+//        
+//        
+//    }
     
 }

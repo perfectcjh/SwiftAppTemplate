@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import QMUIKit
 
-class BaseTextField: UITextField {
+class BaseTextField: QMUITextView {
 
     /*
     // Only override draw() if you perform custom drawing.

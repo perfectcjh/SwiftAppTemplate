@@ -19,3 +19,16 @@ class BaseScrollView: UIScrollView {
     */
 
 }
+
+extension UIScrollView: UIGestureRecognizerDelegate {
+    
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        if let cls = NSClassFromString("_FDFullscreenPopGestureRecognizerDelegate"), contentOffset.x <= 0 {
+            if otherGestureRecognizer.delegate?.isKind(of: cls) == true {
+                return true
+            }
+        }
+        return false
+    }
+    
+}

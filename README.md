@@ -1,2 +1,2 @@
 # SwiftAppSample
-SwiftApp基础模板
+A swift iOS application template I designed myself.

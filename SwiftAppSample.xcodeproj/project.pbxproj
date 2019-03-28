@@ -778,6 +778,7 @@
 				TargetAttributes = {
 					3FF6167321C0AF9000279BD6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1132,7 +1133,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.SwiftAppSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SwiftAppSample/SwiftAppSample-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1154,7 +1155,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.perfectcjh.SwiftAppSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/SwiftAppSample/SwiftAppSample-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
